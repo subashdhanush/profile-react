@@ -83,7 +83,7 @@ export default function App() {
 function Msg({ name, image, Description }) {
   return (
     <div>
-      <img src={image} className="poster" height="300px" />
+      <img src={image} className="poster" height="300px" alt="image not found"/>
       <h1>{name}!!!</h1>
       <h2>{Description}</h2>
       <Counter />
