@@ -5,10 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-Color:blue;
+  font-family: "Roboto";
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.movie-detail-container
+{
+  /* width:15rem; */
+  
+}
+.main-menu
+{
+  color: white;
+  display: flex;
+  text-transform: uppercase;
+  gap:10rem;
+} 
+.main-menu >a
+{
+color: white;
+
+}
+.movie-delete-button
+{
+  margin-left: auto;
 }

@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:20px;
 }
 
 .App-logo {
@@ -36,3 +39,38 @@
     transform: rotate(360deg);
   }
 }
+.movie-form
+{
+  display: flex;
+  flex-direction: column;
+  margin:10px 0;
+  gap:15px;
+}
+.poster
+{
+ height:500px;
+ object-fit: cover;
+ width:300px; 
+}
+.movie-container
+{
+ width:min-content;
+
+}
+body
+{
+display: grid;
+/*place-content:center;*/
+margin:24px;
+}
+.name
+{
+ font-family:"Roboto"; 
+}
+.menu-link
+{
+display:flex;
+gap: 5px;
+align-items: center;
+}
+
